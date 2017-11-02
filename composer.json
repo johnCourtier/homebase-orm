@@ -1,0 +1,26 @@
+{
+	"name": "homebase/orm",
+	"description": "Thin orm layer",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Jan Dvorak",
+			"email": "courtier.john@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"homebase/objects": "dev-master",
+		"php": ">5.5"
+	},
+	"require-dev": {
+		"nette/tester": "^1.7",
+		"mockery/mockery": "^0.9.9"
+	},
+	"autoload": {
+		"psr-4": {"Homebase\\": "src/Homebase/"}
+	},
+	"autoload-dev": {
+		"psr-4": {"Examples\\": "examples/"}
+	}
+}
